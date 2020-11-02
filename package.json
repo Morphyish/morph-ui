@@ -2,12 +2,8 @@
   "name": "@morph/ui",
   "version": "1.0.0",
   "description": "Svelte component library for morphyish.com",
-  "dependencies": {
-    "svelte": "^3.0.0"
-  },
   "devDependencies": {
     "@babel/core": "^7.12.3",
-    "@storybook/addon-actions": "^6.0.28",
     "@storybook/addon-essentials": "^6.0.28",
     "@storybook/svelte": "^6.0.28",
     "babel-loader": "^8.1.0",

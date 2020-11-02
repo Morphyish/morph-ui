@@ -8,7 +8,16 @@
 
 <style>
     button {
+        cursor: pointer;
+        color: #333;
+        font-family: inherit;
+        font-size: inherit;
+        margin: 0 .5rem 0.5rem .5rem;
+        box-sizing: border-box;
+        border-radius: 2px;
+        outline: none;
         background: none;
+        text-transform: uppercase;
         border: 1px solid transparent;
     }
 
