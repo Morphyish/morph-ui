@@ -1,5 +1,5 @@
-import withSlot from '../../../.storybook/withSlot.svelte'
-import Toggle from './Toggle.svelte'
+import { Toggle } from '../src'
+import { withSlot } from './helpers'
 
 export default {
     title: 'Toggle',

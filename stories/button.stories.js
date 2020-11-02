@@ -1,5 +1,5 @@
-import withSlot from '../../../.storybook/withSlot.svelte'
-import Button from './Button.svelte'
+import { Button } from '../src'
+import { withSlot } from './helpers'
 
 export default {
     title: 'Button',
