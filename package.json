@@ -1,5 +1,5 @@
 {
-  "name": "@morph/ui",
+  "name": "@morphyish/ui",
   "version": "1.0.0",
   "description": "Svelte component library for morphyish.com",
   "devDependencies": {
