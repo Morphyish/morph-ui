@@ -25,3 +25,15 @@ export const Default = Template.bind({})
 Default.args = {
     content: 'Click me',
 }
+
+export const Primary = Template.bind({})
+Primary.args = {
+    content: 'Click me',
+    primary: true,
+}
+
+export const Secondary = Template.bind({})
+Secondary.args = {
+    content: 'Click me',
+    secondary: true,
+}

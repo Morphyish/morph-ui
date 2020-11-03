@@ -26,3 +26,17 @@ Default.args = {
     content: 'Toggle me',
     checked: false,
 }
+
+export const Primary = Template.bind({})
+Primary.args = {
+    content: 'Toggle me',
+    checked: false,
+    primary: true,
+}
+
+export const Secondary = Template.bind({})
+Secondary.args = {
+    content: 'Toggle me',
+    checked: false,
+    secondary: true,
+}
