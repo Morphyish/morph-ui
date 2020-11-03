@@ -1,33 +1,34 @@
-<button on:click>
+<button
+        {...$$props}
+        use:useActions={use}
+        use:forwardEvents
+>
     <slot />
 </button>
 
 <style>
     button {
-        cursor: pointer;
-        color: #333;
-        font-family: inherit;
-        font-size: inherit;
-        padding: 0.4em;
-        margin: 0 .5rem 0.5rem .5rem;
-        box-sizing: border-box;
-        border-radius: 2px;
-        outline: none;
-        border: 1px solid #ccc;
-        background-color: #f4f4f4;
         text-transform: uppercase;
+        border-radius: 3px;
+        cursor: pointer;
     }
 
     button:focus,
     button:hover {
-        border-color: #666;
     }
 
     button:not(:disabled):active {
-        background-color: #ddd;
     }
 
     button:disabled {
-        color: #999;
     }
 </style>
+
+<script>
+    import { get_current_component } from 'svelte/internal'
+    import { forwardEventsBuilder, useActions } from '../../utils'
+
+    export let use = [];
+
+    const forwardEvents = forwardEventsBuilder(get_current_component())
+</script>

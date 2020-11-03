@@ -1,3 +1,5 @@
+import { action } from '@storybook/addon-actions'
+
 import { Toggle } from '../src'
 import { withSlot } from './helpers'
 
@@ -14,16 +16,13 @@ const Template = ({ ...args }) => ({
         ...args,
         component: Toggle,
     },
+    on: {
+        click: action('on:click was triggered'),
+    },
 });
 
 export const Default = Template.bind({})
 Default.args = {
     content: 'Toggle me',
     checked: false,
-}
-
-export const Checked = Template.bind({})
-Checked.args = {
-    content: 'Toggle me',
-    checked: true,
 }

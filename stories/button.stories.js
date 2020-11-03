@@ -1,3 +1,5 @@
+import { action } from '@storybook/addon-actions'
+
 import { Button } from '../src'
 import { withSlot } from './helpers'
 
@@ -13,6 +15,9 @@ const Template = ({ ...args }) => ({
     props: {
         ...args,
         component: Button,
+    },
+    on: {
+        click: action('on:click was triggered'),
     },
 });
 
