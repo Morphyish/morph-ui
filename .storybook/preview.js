@@ -3,7 +3,7 @@ import '../src/theme.css'
 
 export const parameters = {
     docs: {
-        theme: themes.dark,
+        // theme: themes.dark,
     },
     layout: 'centered',
 }
