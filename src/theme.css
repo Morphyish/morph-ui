@@ -1,3 +1,17 @@
 :root {
+    --default-text: #333;
+    --default-border: #777777;
 
+    --primary: #4fb3bf;
+    --primary-text: #00838f;
+    --primary-border: #4fb3bf;
+
+    --secondary: #ff6f00;
+    --secondary-text: #c43e00;
+    --secondary-border: #ff6f00;
+
+    --disabled-text: #ccc;
+
+    --box-shadow: 0 3px 6px rgba(0,0,0,0.23), 0 3px 6px rgba(0,0,0,0.31);
+    --box-shadow-inset: inset 0 4px 6px rgba(0,0,0,0.23), inset 0 4px 6px rgba(0,0,0,0.31);
 }
