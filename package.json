@@ -4,8 +4,11 @@
   "description": "Svelte component library for morphyish.com",
   "devDependencies": {
     "@babel/core": "^7.12.3",
+    "@storybook/addons": "^6.0.28",
+    "@storybook/addon-actions": "^6.0.28",
     "@storybook/addon-essentials": "^6.0.28",
     "@storybook/svelte": "^6.0.28",
+    "@storybook/theming": "^6.0.28",
     "babel-loader": "^8.1.0",
     "react-is": "^17.0.1",
     "svelte": "^3.29.4",
